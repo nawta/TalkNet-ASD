@@ -22,7 +22,7 @@ A new [demo page](https://www.sievedata.com/functions/sieve/talknet-asd). Thanks
 
 Start from building the environment
 ```
-conda create -n TalkNet python=3.7.9 anaconda
+conda create -n TalkNet python=3.9.18 anaconda
 conda activate TalkNet
 pip install -r requirement.txt
 ```
