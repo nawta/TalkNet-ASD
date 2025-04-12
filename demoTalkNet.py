@@ -22,8 +22,8 @@ from scenedetect.stats_manager import StatsManager
 from scenedetect.detectors import ContentDetector
 
 from talkNet import talkNet
-from detectors.s3fd.box_utils import nms_
-from detectors.s3fd.s3fd import S3FD
+from model.faceDetector.s3fd.box_utils import nms_
+from model.faceDetector.s3fd import S3FD
 
 def scene_detect(args):
 	# CPU: Scene detection, output is the list of each shot's time duration
