@@ -32,6 +32,13 @@ Start from the existing environment
 pip install -r requirement.txt
 ```
 
+`conda activate TalkNet`などでCommandNotFoundErrorが出る時はshellを再起動
+```
+conda init bash
+source ~/.bashrc
+conda activate TalkNet
+```
+
 ***
 
 ## TalkNet in AVA-Activespeaker dataset
