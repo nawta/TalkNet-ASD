@@ -27,4 +27,4 @@ ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
 # Default command
-CMD ["python", "-c", "import time; print('TalkNet-ASD container is running'); time.sleep(infinity)"]
+CMD ["python", "-c", "import time; print('TalkNet-ASD container is running'); time.sleep(float('inf'))"]
