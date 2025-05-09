@@ -20,8 +20,11 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirement.txt
 # Copy application code
 COPY . /app/
 
+# Create models directory
+RUN mkdir -p /app/models/TalkNet-ASD
+
 # Download TalkNet-ASD model from Google Drive
-RUN cd /app/models && \
+RUN cd /app/models/TalkNet-ASD && \
     gdown https://drive.google.com/uc?id=1jvjNNdfNLl-vTFX_0X-NHJ3IGBfTU44A -O TalkNet-ASD.zip && \
     unzip TalkNet-ASD.zip && \
     rm TalkNet-ASD.zip
