@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y \
     ffmpeg \
     git \
     wget \
-    gdown \
     unzip \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
